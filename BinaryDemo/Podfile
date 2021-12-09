@@ -1,0 +1,9 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'BinaryDemo' do
+  source 'http://git.17usoft.com/wireless-bus/iOS_CheBaDa_Specs.git'
+  pod 'CBDNetworkEngine','0.1.0'
+  pod 'AFNetworking', '~> 3.0'
+end

@@ -1,0 +1,29 @@
+{
+  "name": "BinaryDemo",
+  "version": "1",
+  "description": "我只是一个测试的，主要是想要 s.dependency",
+  "license": "MIT",
+  "summary": "Seeyou",
+  "homepage": "https://github.com/jiabibi888/BinaryDemo",
+  "authors": {
+    "jiabibi888": "zjb@chebada.com"
+  },
+  "source": {
+    "git": "git@github.com:jiabibi888/BinaryDemo.git",
+    "branch": "dev"
+  },
+  "requires_arc": true,
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "Source/**/*.{h,m,c}",
+  "public_header_files": "Source/**/*.h",
+  "dependencies": {
+    "CBDNetworkEngine": [
+
+    ],
+    "AFNetworking": [
+
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+framework module CBDConfig {
+  umbrella header "CBDConfig-umbrella.h"
+
+  export *
+  module * { export * }
+}
