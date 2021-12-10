@@ -14,11 +14,11 @@ Pod::Spec.new do |s|
         s.source_files = 'Source/**/*.{h,m,c}'
         s.public_header_files = 'Source/**/*.h'
 
-
         s.dependency 'CBDNetworkEngine'
-        s.dependency 'AFNetworking'
+        # s.dependency 'ZJBTableViewModel','0.1.0'
         # s.dependency 'FMDB'
         # s.dependency 'LKDBHelper'
+        s.dependency 'CBDConfig'
 
 
 
